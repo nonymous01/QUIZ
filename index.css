@@ -175,7 +175,7 @@ input[type=radio]:checked ~ .option {
     /* top: 10px; */
 }
 .next-button-container button{
-    width: 18rem;
+    width: 23rem;
     height: 5rem;
     border-radius: 10px;
     background: none;
@@ -184,7 +184,7 @@ input[type=radio]:checked ~ .option {
     border: 2px solid gray;
     cursor: pointer;
     outline: none;
-    font-size: 1.3rem;
+    font-size: 2.3rem;
 }
 .next-button-container button:hover{
     background-color: #084d3c;
@@ -303,7 +303,7 @@ input[type=radio]:checked ~ .option {
        height: 80vh;
     }
     .game-details-container h1{
-        font-size: 1.5rem;
+        font-size: 2.8rem;
     }
 
     .game-question-container{
