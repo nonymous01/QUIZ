@@ -33,7 +33,7 @@ body{
     
     }
     
-}
+
 .azerty{
     background-color: #041a26;
     width: 50%;
@@ -57,7 +57,8 @@ a{
 }
 
 main{
-    width: 90%;
+    background-color: rgb(44, 65, 65);
+    width: 100%;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -85,11 +86,11 @@ main{
 
 .game-details-container{
     width: 100%;
-    background-color: rgb(255, 255, 255);
     height: 4rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 12px;
 }
 
 .game-details-container h1{
@@ -116,7 +117,7 @@ main{
 
 .game-options-container{
     width: 80%;
-    height: 12rem;
+    height: 26rem;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -125,10 +126,14 @@ main{
 
 .game-options-container span{
     width: 45%;
-    height: 3rem;
-    border: 1px solid rgb(163, 163, 163);
+    height: 5rem;
+    border: 1px solid rgb(0, 255, 64);
     border-radius: 20px;
     overflow: hidden;
+}
+.option123{
+    position: relative;
+    height: 121px;
 }
 span label{
     width: 100%;
@@ -169,8 +174,8 @@ input[type=radio]:checked ~ .option {
     top: 60px;
 }
 .next-button-container button{
-    width: 8rem;
-    height: 2rem;
+    width: 18rem;
+    height: 5rem;
     border-radius: 10px;
     background: none;
     color: rgb(25, 25, 25);
@@ -178,6 +183,7 @@ input[type=radio]:checked ~ .option {
     border: 2px solid gray;
     cursor: pointer;
     outline: none;
+    font-size: 1.3rem;
 }
 .next-button-container button:hover{
     background-color: #084d3c;
@@ -193,7 +199,6 @@ input[type=radio]:checked ~ .option {
     width: 100%; 
     height: 100%; 
     overflow: auto; 
-    background-color: rgb(0,0,0); 
     background-color: rgba(0,0,0,0.4); 
     flex-direction: column;
     align-items: center;
@@ -274,10 +279,10 @@ input[type=radio]:checked ~ .option {
 
     .game-options-container span{
         width: 90%;
-        height: 2.5rem;
+        height: 5.5rem;
     }
     .game-options-container span label{
-        font-size: 0.8rem;
+        font-size: 1.5rem;
 
     }
     .modal-content-container{
@@ -292,7 +297,7 @@ input[type=radio]:checked ~ .option {
 
 
    .game-quiz-container{
-       width: 90%;
+       width: 100%;
        height: 80vh;
     }
     .game-details-container h1{
@@ -300,11 +305,11 @@ input[type=radio]:checked ~ .option {
     }
 
     .game-question-container{
-        height: 8rem;
+        height: 12rem;
     }
 
     .game-question-container h1{
-        font-size: 0.9rem;
+        font-size: 1.1rem;
      }
 
     .game-options-container span{
