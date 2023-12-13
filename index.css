@@ -13,6 +13,27 @@ body{
     font-family: 'Montserrat', serif;
 
 }
+.azerty{
+    background-color: #041a26;
+    width: 50%;
+    height: 150px;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    top: 121px;
+    border: none;
+   
+
+}
+a{
+    text-decoration: none;
+}
 
 main{
     width: 100%;
@@ -120,7 +141,7 @@ input[type=radio]:checked ~ .option {
     display: flex;
     justify-content: center;
     position: relative;
-    top: 32px;
+    top: 60px;
 }
 .next-button-container button{
     width: 8rem;
@@ -159,7 +180,7 @@ input[type=radio]:checked ~ .option {
 .modal-content-container{
     height: 20rem;
     width: 25rem;
-    background-color: #784134;
+    background-color: #000000b4;
     display: flex;
     flex-direction: column;
     align-items: center;

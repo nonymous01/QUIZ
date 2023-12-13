@@ -41,69 +41,77 @@
 
     
     {
-        question: "MANGER ENSEMBLE",
-        optionA: "le coulé",
-        optionB: "gbayé dans gbêve",
-        optionC: "daba en gbonhï",
-        optionD: "fraya.",
-        correctOption: "optionC"
+        question: "AFFAIRAGE",
+        optionA: "Gawa",
+        optionB: "Zoo",
+        optionC: "Bori",
+        optionD: "Gbairai.",
+        correctOption: "optionD"
     },
      
     {
-        question: "MANGER ENSEMBLE",
-        optionA: "le coulé",
-        optionB: "gbayé dans gbêve",
-        optionC: "daba en gbonhï",
-        optionD: "fraya.",
+        question: "AMOUREUX",
+        optionA: "Fraya",
+        optionB: "Beko",
+        optionC: "Fan",
+        optionD: "Apoutchou.",
         correctOption: "optionC"
     },
 
     
 
     {
-        question: "MANGER ENSEMBLE",
-        optionA: "le coulé",
-        optionB: "gbayé dans gbêve",
-        optionC: "daba en gbonhï",
-        optionD: "fraya.",
-        correctOption: "optionC"
+        question: "COURIR",
+        optionA: "Behou",
+        optionB: "Chap chap",
+        optionC: "Gbor",
+        optionD: "Choco.",
+        correctOption: "optionA"
     },
     {
-        question: "MANGER ENSEMBLE",
-        optionA: "le coulé",
-        optionB: "gbayé dans gbêve",
-        optionC: "daba en gbonhï",
-        optionD: "fraya.",
+        question: "REFLECHIR",
+        optionA: "Gouman",
+        optionB: "Sciencé",
+        optionC: "Mousso",
+        optionD: "Fata.",
+        correctOption: "optionB"
+    }
+    ,
+    {
+        question: "IGNORANT",
+        optionA: "Fargot",
+        optionB: "Din din",
+        optionC: "Gahou",
+        optionD: "Gbé.",
         correctOption: "optionC"
     }
     ,
     {
-        question: "MANGER ENSEMBLE",
-        optionA: "le coulé",
-        optionB: "gbayé dans gbêve",
-        optionC: "daba en gbonhï",
-        optionD: "fraya.",
-        correctOption: "optionC"
+        question: "BAHI",
+        optionA: "Chanceux",
+        optionB: "Malchanceux",
+        optionC: "Intelligent",
+        optionD: "Sage.",
+        correctOption: "optionB"
     }
     ,
     {
-        question: "MANGER ENSEMBLE",
-        optionA: "le coulé",
-        optionB: "gbayé dans gbêve",
-        optionC: "daba en gbonhï",
-        optionD: "fraya.",
-        correctOption: "optionC"
+        question: "Zoo",
+        optionA: "Parc animalier",
+        optionB: "Forêt",
+        optionC: "Restaurant",
+        optionD: "Joli.",
+        correctOption: "optionD"
     }
     ,
     {
-        question: "MANGER ENSEMBLE",
-        optionA: "le coulé",
-        optionB: "gbayé dans gbêve",
-        optionC: "daba en gbonhï",
-        optionD: "fraya.",
-        correctOption: "optionC"
+        question: "SKINNY",
+        optionA: "Homme riche",
+        optionB: "Femme mince",
+        optionC: "Rapporter",
+        optionD: "Donner.",
+        correctOption: "optionB"
     }
-    ,
     
 
 
