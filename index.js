@@ -17,7 +17,7 @@
         optionA: "Le coulé",
         optionB: "Gbayé dans gbêve",
         optionC: "Daba en gbonhï",
-        optionD: "Fraya.",
+        optionD: "Fraya",
         correctOption: "optionC"
     },
 
@@ -111,10 +111,133 @@
         optionC: "Rapporter",
         optionD: "Donner",
         correctOption: "optionB"
+    },
+    {
+        question: "Donnez la signification de Abogaiss",
+        optionA: "Joli",
+        optionB: "Avare",
+        optionC: "Étranger",
+        optionD: "Menteuse",
+        correctOption: "optionA"
     }
+    ,
+    {
+        question: "Donnez la signification de 'Assoya'",
+        optionA: "S'associer",
+        optionB: "Engueuler",
+        optionC: "Critiquer",
+        optionD: "Courir",
+        correctOption: "optionA"
+    }
+,
+
+{
+        question: "Donnez la signification de 'Atôtô'",
+        optionA: "Dernier cri",
+        optionB: "Propre",
+        optionC: "Joli",
+        optionD: "Tromper",
+        correctOption: "optionD"
+    }
+,
+{
+        question: "Qu'est-ce que 'Atalaku' signifie ?",
+        optionA: "Louer quelqu'un",
+        optionB: "Lancer quelqu'un",
+        optionC: "Danser",
+        optionD: "Fuir",
+        correctOption: "optionB"
+}
+    ,
     
+{
+    question: "Comment pourrait-on définir Atchè en un mot?",
+    optionA: "Affairé",
+    optionB: "Avare",
+    optionC: "Mignon",
+    optionD: "Musclé",
+    correctOption: "optionB"
+ },
 
-
+ {
+    question : "Que signifie 'Arabadé'?",
+    optionA: "Parler trop",
+    optionB: "Pinhou",
+    optionC  :"Avoir du style",
+    optionD :" Couché avec tout le monde",
+    correctOption: "optionD"
+    }
+    ,
+    {
+    question : "Quel est le synonyme de Akwabaté ?",
+    optionA:" Menteuse",
+    optionB:" Étranger",
+    optionC: "Propre",
+    optionD: "Associé",
+    correctOption: "optionB"
+    }
+    ,
+    {
+    question :" Que signifie 'Atôtô' en nouchi?",
+    optionA: "Dernier cri",
+    optionB: "Propre",
+    optionC: "Joli",
+    optionD: "Tromper",
+    correctOption: "optionD"
+    }
+    ,
+    {
+        question  : "Donnez la signification de Bingue",
+        optionA: "La France",
+        optionB :"L'Europe",
+        optionC :"Krika 5",
+        optionD :"Difficile",
+        correctOption: "optionC"
+        }
+        ,
+        {
+        question  : "Que signifie 'Bâ fils' en nouchi",
+        optionA: "1 500 francs CFA",
+        optionB: "Krika",
+        optionC: "1 000 francs CFA",
+        optionD: "Trop compliqué",
+        correctOption: "optionA"
+        }
+        ,
+        {
+        question :" Qu'est-ce que 'Braisage' signifie en nouchi ?",
+        optionA: "Critiquer, parler des gens",
+        optionB: "Afférage",
+        optionC: "Danser",
+        optionD: "Engueuler",
+        correctOption: "optionA"
+        },
+        {
+            question : "Comment pourrait-on définir C'est mou en un mot?",
+            optionA: "Etre tchass, être sexy",
+            optionB: "Ne pas avoir d'argent",
+            optionC: "Etre moisi",
+            optionD: "Etre enceinte",
+            correctOption: "optionB"
+            }
+            ,
+            {
+            question : "Que veut dire 'Dêmin-dêmin' en nouchi",
+            optionA: "Gbé de monde",
+            optionB: "Décourager une personne, ou ramener quelqu'un à la réalité",
+            optionC:" Se débrouiller",
+            optionD: "Faire vite, Se dépêcher",
+            correctOption: "optionC"
+            }
+            ,
+            {    
+            question : "Que signifie 'Kpo Kpo' en nouchi ?",
+            optionA: "Expliquer quelque chose",
+            optionB:" Casser mon cou",
+            optionC: "Appeler, téléphoner, coup de fil",
+            optionD: "Prendre sa balle, coup tete...",
+            correctOption: "optionC"
+            }
 ]
 
 let shuffledQuestions = [] //empty array to hold shuffled selected questions out of all available questions
