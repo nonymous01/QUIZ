@@ -99,14 +99,15 @@ main{
 
 .game-question-container{
     width: 90%;
-    height: 8rem;
-    background-color: #084d3c;
+    height: 10rem;
+    background-color: #042c22;
     display: flex;
     color: white;
     align-items: center;
     justify-content: center;
     border: 2px solid rgb(255, 102, 0);
-    border-radius: 25px;
+    border-radius: 20px;
+    border: none;
 }
 
 .game-question-container h1{
@@ -171,7 +172,7 @@ input[type=radio]:checked ~ .option {
     display: flex;
     justify-content: center;
     position: relative;
-    top: 60px;
+    /* top: 10px; */
 }
 .next-button-container button{
     width: 18rem;
@@ -282,7 +283,8 @@ input[type=radio]:checked ~ .option {
         height: 5.5rem;
     }
     .game-options-container span label{
-        font-size: 1.5rem;
+        font-size: 3rem;
+        font-family: 'Poppins', sans-serif;
 
     }
     .modal-content-container{
