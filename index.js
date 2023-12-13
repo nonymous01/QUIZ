@@ -31,7 +31,7 @@
     },
 
     {
-        question: "MAISON",
+        question: "Comment dire 'MAISON' ?",
         optionA: "Bori",
         optionB: "Jéton",
         optionC: "Pix",
@@ -41,7 +41,7 @@
 
     
     {
-        question: "AFFAIRAGE",
+        question: "Donnez un synonyme de 'AFFAIRAGE'",
         optionA: "Gawa",
         optionB: "Zoo",
         optionC: "Bori",
@@ -50,7 +50,7 @@
     },
      
     {
-        question: "AMOUREUX",
+        question: "Donnez un synonyme de 'AMOUREUX'",
         optionA: "Fraya",
         optionB: "Beko",
         optionC: "Fan",
@@ -61,7 +61,7 @@
     
 
     {
-        question: "COURIR",
+        question: "Comment dire 'COURIR' ?",
         optionA: "Behou",
         optionB: "Chap chap",
         optionC: "Gbor",
@@ -69,7 +69,7 @@
         correctOption: "optionA"
     },
     {
-        question: "REFLECHIR",
+        question: "Comment dire 'REFLECHIR' ?",
         optionA: "Gouman",
         optionB: "Sciencé",
         optionC: "Mousso",
@@ -78,7 +78,7 @@
     }
     ,
     {
-        question: "IGNORANT",
+        question: "Comment dire 'IGNORANT' ?",
         optionA: "Fargot",
         optionB: "Din din",
         optionC: "Gahou",
@@ -87,7 +87,7 @@
     }
     ,
     {
-        question: "BAHI",
+        question: "Que signifie 'BAHI' ?",
         optionA: "Chanceux",
         optionB: "Malchanceux",
         optionC: "Intelligent",
@@ -96,7 +96,7 @@
     }
     ,
     {
-        question: "Zo",
+        question: "Que signifie 'Zo' ?",
         optionA: "Parc animalier",
         optionB: "Forêt",
         optionC: "Restaurant",
@@ -105,9 +105,9 @@
     }
     ,
     {
-        question: "SKINNY",
-        optionA: "Homme riche",
-        optionB: "Femme mince",
+        question: "Que signifie 'SKINNY' ?",
+        optionA: "Riche",
+        optionB: "Mince",
         optionC: "Rapporter",
         optionD: "Donner",
         correctOption: "optionB"
@@ -129,21 +129,12 @@
         optionD: "Courir",
         correctOption: "optionA"
     }
-,
 
-{
-        question: "Donnez la signification de 'Atôtô'",
-        optionA: "Dernier cri",
-        optionB: "Propre",
-        optionC: "Joli",
-        optionD: "Tromper",
-        correctOption: "optionD"
-    }
 ,
 {
         question: "Qu'est-ce que 'Atalaku' signifie ?",
-        optionA: "Louer quelqu'un",
-        optionB: "Lancer quelqu'un",
+        optionA: "Quelqu'un",
+        optionB: "Eloges",
         optionC: "Danser",
         optionD: "Fuir",
         correctOption: "optionB"
@@ -157,42 +148,16 @@
     optionC: "Mignon",
     optionD: "Musclé",
     correctOption: "optionB"
- },
-
- {
-    question : "Que signifie 'Arabadé'?",
-    optionA: "Parler trop",
-    optionB: "Pinhou",
-    optionC  :"Avoir du style",
-    optionD :" Couché avec tout le monde",
-    correctOption: "optionD"
-    }
-    ,
-    {
-    question : "Quel est le synonyme de Akwabaté ?",
-    optionA:" Menteuse",
-    optionB:" Étranger",
-    optionC: "Propre",
-    optionD: "Associé",
-    correctOption: "optionB"
-    }
-    ,
-    {
-    question :" Que signifie 'Atôtô' en nouchi?",
-    optionA: "Dernier cri",
-    optionB: "Propre",
-    optionC: "Joli",
-    optionD: "Tromper",
-    correctOption: "optionD"
-    }
-    ,
+ }
+ ,
+    
     {
         question  : "Donnez la signification de Bingue",
         optionA: "La France",
         optionB :"L'Europe",
         optionC :"Krika 5",
         optionD :"Difficile",
-        correctOption: "optionC"
+        correctOption: "optionA"
         }
         ,
         {
@@ -216,15 +181,15 @@
             question : "Comment pourrait-on définir C'est mou en un mot?",
             optionA: "Etre tchass, être sexy",
             optionB: "Ne pas avoir d'argent",
-            optionC: "Etre moisi",
+            optionC: "Etre fatigué",
             optionD: "Etre enceinte",
             correctOption: "optionB"
             }
             ,
             {
             question : "Que veut dire 'Dêmin-dêmin' en nouchi",
-            optionA: "Gbé de monde",
-            optionB: "Décourager une personne, ou ramener quelqu'un à la réalité",
+            optionA: "Ramener quelqu'un à la réalité",
+            optionB: "Décourager une personne",
             optionC:" Se débrouiller",
             optionD: "Faire vite, Se dépêcher",
             correctOption: "optionC"
