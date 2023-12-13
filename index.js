@@ -40,19 +40,15 @@
     },
 
     
-
-    
-   
-
     {
-        question: "Qui était l'entraîneur de l'équipe du Sénégal lors de la CAN 2002, où ils ont atteint la finale pour la première fois?",
-        optionA: "Lamine N'Diaye",
-        optionB: "Bruno Metsu",
-        optionC: "Omar Daf",
-        optionD: "Mbaye Leye",
-        correctOption: "optionB"
+        question: "MANGER ENSEMBLE",
+        optionA: "le coulé",
+        optionB: "gbayé dans gbêve",
+        optionC: "daba en gbonhï",
+        optionD: "fraya.",
+        correctOption: "optionC"
     },
-
+     
     {
         question: "MANGER ENSEMBLE",
         optionA: "le coulé",
