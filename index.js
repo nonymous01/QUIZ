@@ -45,7 +45,7 @@
         optionA: "Gawa",
         optionB: "Zoo",
         optionC: "Bori",
-        optionD: "Gbairai.",
+        optionD: "Gbairai",
         correctOption: "optionD"
     },
      
@@ -54,7 +54,7 @@
         optionA: "Fraya",
         optionB: "Beko",
         optionC: "Fan",
-        optionD: "Apoutchou.",
+        optionD: "Apoutchou",
         correctOption: "optionC"
     },
 
@@ -65,7 +65,7 @@
         optionA: "Behou",
         optionB: "Chap chap",
         optionC: "Gbor",
-        optionD: "Choco.",
+        optionD: "Choco",
         correctOption: "optionA"
     },
     {
@@ -73,7 +73,7 @@
         optionA: "Gouman",
         optionB: "Sciencé",
         optionC: "Mousso",
-        optionD: "Fata.",
+        optionD: "Fata",
         correctOption: "optionB"
     }
     ,
@@ -82,7 +82,7 @@
         optionA: "Fargot",
         optionB: "Din din",
         optionC: "Gahou",
-        optionD: "Gbé.",
+        optionD: "Gbé",
         correctOption: "optionC"
     }
     ,
@@ -91,7 +91,7 @@
         optionA: "Chanceux",
         optionB: "Malchanceux",
         optionC: "Intelligent",
-        optionD: "Sage.",
+        optionD: "Sage",
         correctOption: "optionB"
     }
     ,
@@ -100,7 +100,7 @@
         optionA: "Parc animalier",
         optionB: "Forêt",
         optionC: "Restaurant",
-        optionD: "Joli.",
+        optionD: "Joli",
         correctOption: "optionD"
     }
     ,
@@ -109,7 +109,7 @@
         optionA: "Homme riche",
         optionB: "Femme mince",
         optionC: "Rapporter",
-        optionD: "Donner.",
+        optionD: "Donner",
         correctOption: "optionB"
     }
     
