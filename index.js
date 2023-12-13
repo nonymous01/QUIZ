@@ -2,233 +2,259 @@
  //you can change the questions to your own taste or even add more questions..
  const questions = [
     {
-        question: "How many days makes a week ?",
-        optionA: "10 days",
-        optionB: "14 days",
-        optionC: "5 days",
-        optionD: "7 days",
+        question: "Quelle est la nation qui a remporté le plus grand nombre de titres de la CAN jusqu'à présent ?",
+        optionA: "Mali",
+        optionB: "Nigeria",
+        optionC: "Cameroun",
+        optionD: "Égypte",
         correctOption: "optionD"
     },
 
     {
-        question: "How many players are allowed on a soccer pitch ?",
-        optionA: "10 players",
-        optionB: "11 players",
-        optionC: "9 players",
-        optionD: "12 players",
+        question: "En quelle année la première Coupe d'Afrique des Nations a-t-elle eu lieu ?",
+        optionA: "1963",
+        optionB: "1957",
+        optionC: "1970",
+        optionD: "1952",
         correctOption: "optionB"
     },
 
     {
-        question: "Who was the first President of USA ?",
-        optionA: "Donald Trump",
-        optionB: "Barack Obama",
-        optionC: "Abraham Lincoln",
-        optionD: "George Washington",
+        question: "Quel pays qui a accueilli la CAN 2019 ?",
+        optionA: "Cameroun",
+        optionB: "Afrique du Sud",
+        optionC: "Maroc",
+        optionD: "Égypte",
         correctOption: "optionD"
     },
 
     {
-        question: "30 days has ______ ?",
-        optionA: "January",
-        optionB: "December",
-        optionC: "June",
-        optionD: "August",
+        question: "Quelle équipe a remporté la CAN 2021 ?",
+        optionA: "Maroc",
+        optionB: "Algérie",
+        optionC: "Sénégal",
+        optionD: "Tunisie",
         correctOption: "optionC"
     },
 
     {
-        question: "How manay hours can be found in a day ?",
-        optionA: "30 hours",
-        optionB: "38 hours",
-        optionC: "48 hours",
-        optionD: "24 hours",
-        correctOption: "optionD"
-    },
-
-    {
-        question: "Which is the longest river in the world ?",
-        optionA: "River Nile",
-        optionB: "Long River",
-        optionC: "River Niger",
-        optionD: "Lake Chad",
-        correctOption: "optionA"
-    },
-
-    {
-        question: "_____ is the hottest Continent on Earth ?",
-        optionA: "Oceania",
-        optionB: "Antarctica",
-        optionC: "Africa",
-        optionD: "North America",
-        correctOption: "optionC"
-    },
-
-    {
-        question: "Which country is the largest in the world ?",
-        optionA: "Russia",
-        optionB: "Canada",
-        optionC: "Africa",
-        optionD: "Egypt",
-        correctOption: "optionA"
-    },
-
-    {
-        question: "Which of these numbers is an odd number ?",
-        optionA: "Ten",
-        optionB: "Twelve",
-        optionC: "Eight",
-        optionD: "Eleven",
-        correctOption: "optionD"
-    },
-
-    {
-        question: `"You Can't see me" is a popular saying by`,
-        optionA: "Eminem",
-        optionB: "Bill Gates",
-        optionC: "Chris Brown",
-        optionD: "John Cena",
-        correctOption: "optionD"
-    },
-
-    {
-        question: "Where is the world tallest building located ?",
-        optionA: "Africa",
-        optionB: "California",
-        optionC: "Dubai",
-        optionD: "Italy",
-        correctOption: "optionC"
-    },
-
-    {
-        question: "The longest river in the United Kingdom is ?",
-        optionA: "River Severn",
-        optionB: "River Mersey",
-        optionC: "River Trent",
-        optionD: "River Tweed",
-        correctOption: "optionA"
-    },
-
-
-    {
-        question: "How many permanent teeth does a dog have ?",
-        optionA: "38",
-        optionB: "42",
-        optionC: "40",
-        optionD: "36",
-        correctOption: "optionB"
-    },
-
-    {
-        question: "Which national team won the football World cup in 2018 ?",
-        optionA: "England",
-        optionB: "Brazil",
-        optionC: "Germany",
-        optionD: "France",
-        correctOption: "optionD"
-    },
-
-    {
-        question: "Which US state was Donald Trump Born ?",
-        optionA: "New York",
-        optionB: "California",
-        optionC: "New Jersey",
-        optionD: "Los Angeles",
-        correctOption: "optionA"
-    },
-
-    {
-        question: "How man states does Nigeria have ?",
-        optionA: "24",
-        optionB: "30",
-        optionC: "36",
-        optionD: "37",
-        correctOption: "optionC"
-    },
-
-    {
-        question: "____ is the capital of Nigeria ?",
-        optionA: "Abuja",
-        optionB: "Lagos",
-        optionC: "Calabar",
-        optionD: "Kano",
-        correctOption: "optionA"
-    },
-
-    {
-        question: "Los Angeles is also known as ?",
-        optionA: "Angels City",
-        optionB: "Shining city",
-        optionC: "City of Angels",
-        optionD: "Lost Angels",
-        correctOption: "optionC"
-    },
-
-    {
-        question: "What is the capital of Germany ?",
-        optionA: "Georgia",
-        optionB: "Missouri",
-        optionC: "Oklahoma",
-        optionD: "Berlin",
-        correctOption: "optionD"
-    },
-
-    {
-        question: "How many sides does an hexagon have ?",
-        optionA: "Six",
-        optionB: "Sevene",
-        optionC: "Four",
-        optionD: "Five",
-        correctOption: "optionA"
-    },
-
-    {
-        question: "How many planets are currently in the solar system ?",
-        optionA: "Eleven",
-        optionB: "Seven",
-        optionC: "Nine",
-        optionD: "Eight",
-        correctOption: "optionD"
-    },
-
-    {
-        question: "Which Planet is the hottest ?",
-        optionA: "Jupitar",
-        optionB: "Mercury",
-        optionC: "Earth",
-        optionD: "Venus",
-        correctOption: "optionB"
-    },
-
-    {
-        question: "where is the smallest bone in human body located?",
-        optionA: "Toes",
-        optionB: "Ears",
-        optionC: "Fingers",
-        optionD: "Nose",
-        correctOption: "optionB"
-    },
-
-    {
-        question: "How many hearts does an Octopus have ?",
-        optionA: "One",
-        optionB: "Two",
-        optionC: "Three",
-        optionD: "Four",
-        correctOption: "optionC"
-    },
-
-    {
-        question: "How many teeth does an adult human have ?",
-        optionA: "28",
-        optionB: "30",
+        question: "Combien d'équipes participent généralement à la phase finale de la CAN ?",
+        optionA: "16",
+        optionB: "20",
         optionC: "32",
-        optionD: "36",
+        optionD: "24",
+        correctOption: "optionD"
+    },
+
+    {
+        question: "Quel pays a remporté la CAN pour la première fois en 1992 ?",
+        optionA: "Côte d'Ivoire",
+        optionB: "Ghana",
+        optionC: "Nigeria",
+        optionD: "Algérie",
+        correctOption: "optionA"
+    },
+
+    {
+        question: "Quelle nation a accueilli la CAN pour la première fois en 1957 ?",
+        optionA: "Ghana",
+        optionB: "Égypte",
+        optionC: "Soudan",
+        optionD: "Éthiopie",
         correctOption: "optionC"
+    },
+
+    {
+        question: "Quelle équipe nationale est surnommée \"les Éléphants\" et a remporté la CAN en 2015 ?",
+        optionA: "Côte d'Ivoire",
+        optionB: "Cameroun",
+        optionC: "Nigeria",
+        optionD: "Ghana",
+        correctOption: "optionA"
+    },
+
+    {
+        question: "Qui est l'entraîneur actuel de l'équipe nationale du Maroc ?",
+        optionA: "Didier Deschamps",
+        optionB: "Badou Zaki",
+        optionC: "Hervé Renard",
+        optionD: "Vahid Halilhodži",
+        correctOption: "optionD"
+    },
+
+    {
+        question: "À partir de quelle année la CAN a-t-elle eu lieu tous les deux ans au lieu de quatre ans?",
+        optionA: "2010",
+        optionB: "2012",
+        optionC: "2002",
+        optionD: "2013",
+        correctOption: "optionD"
+    },
+
+    {
+        question: "Quelle est la mascotte officielle de la CAN 2023 ?",
+        optionA: "Tut",
+        optionB: "Chuku Chuku",
+        optionC: "Akawba",
+        optionD: "Palanquinha",
+        correctOption: "optionC"
+    },
+
+    {
+        question: "Combien de groupes y a-t-il généralement dans la phase de groupes de la CAN ?",
+        optionA: "6",
+        optionB: "8",
+        optionC: "10",
+        optionD: "7",
+        correctOption: "optionA"
+    },
+
+
+    {
+        question: "Quelle équipe détient le record du plus grand nombre de participations à la CAN sans avoir remporté le titre ?",
+        optionA: "Angola",
+        optionB: "Mali",
+        optionC: "Soudan",
+        optionD: "Gabon",
+        correctOption: "optionB"
+    },
+
+    {
+        question: "En quelle année a été introduite la phase de groupes dans le format de la CAN ?",
+        optionA: "1957",
+        optionB: "1964",
+        optionC: "2013",
+        optionD: "1992",
+        correctOption: "optionD"
+    },
+
+    {
+        question: "Quelle équipe nationale est surnommée les \"Super Eagles\" ?",
+        optionA: "Nigeria",
+        optionB: "California",
+        optionC: "Burkina faso",
+        optionD: "Tanzanie",
+        correctOption: "optionA"
+    },
+
+    {
+        question: "Quelle nation africaine a atteint les quarts de finale de la Coupe du Monde de la FIFA pour la première fois en 1990 ?",
+        optionA: "Guinée Équatoriale",
+        optionB: "Éthiopie",
+        optionC: "Cameroun",
+        optionD: "Afrique du sud",
+        correctOption: "optionC"
+    },
+
+    {
+        question: "En quelle année l'Égypte a-t-elle accueillie la CAN pour la première fois ?",
+        optionA: "1959",
+        optionB: "2006",
+        optionC: "1986",
+        optionD: "1974",
+        correctOption: "optionA"
+    },
+
+    {
+        question: "Quelle équipe a été finaliste de la CAN 2004, mais a perdu face à la Tunisie ?",
+        optionA: "Sénégal",
+        optionB: "Shining city",
+        optionC: "Maroc",
+        optionD: "Libye",
+        correctOption: "optionC"
+    },
+
+    {
+        question: "Quel pays a organisé la CAN pour la première fois en 1962 ?",
+        optionA: "Égypte",
+        optionB: "Ghana",
+        optionC: "Soudan",
+        optionD: "Éthiopie",
+        correctOption: "optionD"
+    },
+
+    {
+        question: "Quel joueur ivoirien a remporté le Ballon d'Or Africain en 2015 après avoir mené son équipe à la victoire en 2015 ?",
+        optionA: "Yaya Touré",
+        optionB: "Joel Tié",
+        optionC: "Kolo touré",
+        optionD: "Didier Drogba",
+        correctOption: "optionA"
+    },
+
+    {
+        question: "Quel ancien international égyptien a été l'entraîneur de l'équipe nationale d'Égypte lors de la CAN 2008 ?",
+        optionA: "Mahmoud El-Gohary",
+        optionB: "Mohamed Salah",
+        optionC: "Ahmed Hassan",
+        optionD: "Hassan Shehata",
+        correctOption: "optionD"
+    },
+
+    {
+        question: "Quel entraîneur a mené le Nigeria à la victoire lors de la CAN 1994, remportant ainsi son premier titre?",
+        optionA: "Paul Hamilton",
+        optionB: "Clemens Westerhof",
+        optionC: "Shaibu Amodu",
+        optionD: "Gottlieb Göller",
+        correctOption: "optionB"
+    },
+
+    {
+        question: "Qui était l'entraîneur de l'équipe du Sénégal lors de la CAN 2002, où ils ont atteint la finale pour la première fois?",
+        optionA: "Lamine N'Diaye",
+        optionB: "Bruno Metsu",
+        optionC: "Omar Daf",
+        optionD: "Mbaye Leye",
+        correctOption: "optionB"
+    },
+
+    {
+        question: "Qui était l'entraîneur de l'équipe nationale du Sénégal lors de la CAN 2019 remportée par l'Algérie ?",
+        optionA: "Clarence Seedorf",
+        optionB: "Aliou Cissé",
+        optionC: "Javier Aguirre",
+        optionD: "Hervé Renard",
+        correctOption: "optionB"
+    },
+
+    {
+        question: "Quel pays était dirigé par l'entraîneur Gernot Rohr lors de la CAN 2019 ?",
+        optionA: "Ghana",
+        optionB: "Maroc",
+        optionC: "Nigeria",
+        optionD: "Cameroun",
+        correctOption: "optionC"
+    },
+
+    {
+        question: "Hervé Renard a remporté la CAN avec deux équipes différentes. lesquels  ?",
+        optionA: "Algérie et Tunisie",
+        optionB: "Égypte et Sénégal",
+        optionC: "Côte d'Ivoire et Maroc",
+        optionD: "Ghana et Nigeria",
+        correctOption: "optionC"
+    },
+
+    {
+        question: "Qui était l'entraîneur de l'Égypte lors de la CAN 2017 ?",
+        optionA: "Javier Aguirre",
+        optionB: "Aliou Cissé",
+        optionC: "Hector Cuper",
+        optionD: "Hervé Renard",
+        correctOption: "optionC"
+    },
+
+    {
+        question: "Quel pays était entraîné par Florent Ibenge lors de la CAN 2019 ?",
+        optionA: "Gabon",
+        optionB: "RDC (République démocratique du Congo)",
+        optionC: "Mali",
+        optionD: "Burkina Faso",
+        correctOption: "optionB"
     }
 
 ]
-
 
 let shuffledQuestions = [] //empty array to hold shuffled selected questions out of all available questions
 
@@ -351,15 +377,15 @@ function handleEndGame() {
 
     // condition check for player remark and remark color
     if (playerScore <= 3) {
-        remark = "Bad Grades, Keep Practicing."
+        remark = "Mauvaises notes, continuez à vous entraîner.."
         remarkColor = "red"
     }
     else if (playerScore >= 4 && playerScore < 7) {
-        remark = "Average Grades, You can do better."
+        remark = "Notes moyennes, Vous pouvez faire mieux."
         remarkColor = "orange"
     }
     else if (playerScore >= 7) {
-        remark = "Excellent, Keep the good work going."
+        remark = "Excellent, continuez à faire du bon travail."
         remarkColor = "green"
     }
     const playerGrade = (playerScore / 10) * 100
