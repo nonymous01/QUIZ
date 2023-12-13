@@ -172,7 +172,7 @@ input[type=radio]:checked ~ .option {
     display: flex;
     justify-content: center;
     position: relative;
-    /* top: 10px; */
+    top: 200px;
 }
 .next-button-container button{
     width: 33rem;
