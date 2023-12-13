@@ -4,38 +4,38 @@
  
  const questions = [
     {
-        question: " QUEL EST LA SIGNIFICATION APPROPRIÉ À L'EXPRESSION 'Dêmin-dêmin' ",
-        optionA: "manger à sa faim",
-        optionB: "se débrouille.",
-        optionC: "donner vie",
-        optionD: "parler trop",
+        question: " Que signifie 'Dêmin-dêmin' ",
+        optionA: "Manger à sa faim",
+        optionB: "Se débrouiller",
+        optionC: "Donner vie",
+        optionD: "Parler trop",
         correctOption: "optionB"
     },
 
     {
-        question: "MANGER ENSEMBLE",
-        optionA: "le coulé",
-        optionB: "gbayé dans gbêve",
-        optionC: "daba en gbonhï",
-        optionD: "fraya.",
+        question: "Comment dire 'MANGER ENSEMBLE'?",
+        optionA: "Le coulé",
+        optionB: "Gbayé dans gbêve",
+        optionC: "Daba en gbonhï",
+        optionD: "Fraya.",
         correctOption: "optionC"
     },
 
     {
-        question: "QUEL SIGNIFIE 'yé té couman de kélkéchoz'",
-        optionA: "parler en vaine",
-        optionB: "Prends la jambe",
-        optionC: "se débrouille",
-        optionD: "je te parle de quelque chose",
+        question: "QUE SIGNIFIE 'yé té couman de kélkéchoz'",
+        optionA: "Parler en vain",
+        optionB: "Prendre l'argent",
+        optionC: "Se débrouiller",
+        optionD: "Je te parle de quelque chose",
         correctOption: "optionD"
     },
 
     {
         question: "MAISON",
-        optionA: "bori",
-        optionB: "jéton",
-        optionC: "pix",
-        optionD: "mousso",
+        optionA: "Bori",
+        optionB: "Jéton",
+        optionC: "Pix",
+        optionD: "Mousso",
         correctOption: "optionC"
     },
 
@@ -96,7 +96,7 @@
     }
     ,
     {
-        question: "Zoo",
+        question: "Zo",
         optionA: "Parc animalier",
         optionB: "Forêt",
         optionC: "Restaurant",
