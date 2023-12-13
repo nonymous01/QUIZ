@@ -280,7 +280,7 @@ input[type=radio]:checked ~ .option {
 
     .game-options-container span{
         width: 90%;
-        height: 8.5rem;
+        height: 5.5rem;
     }
     .game-options-container span label{
         font-size: 2.2rem;
