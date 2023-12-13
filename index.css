@@ -36,7 +36,7 @@ a{
 }
 
 main{
-    width: 100%;
+    width: 50%;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -47,6 +47,8 @@ main{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    justify-content: center;
+    margin: 0 auto  ;
 }
 
 .game-quiz-container{
@@ -132,7 +134,8 @@ input[type="radio"] {
 
 
 input[type=radio]:checked ~ .option {
-    background: rgb(241, 112, 6);
+    background: rgb(160, 75, 6);
+    color: white;
 }
 
 .next-button-container{
@@ -232,7 +235,6 @@ input[type=radio]:checked ~ .option {
     background-color: #084d3c;
 }
 
-@media(min-width : 300px) and (max-width : 350px){
     .game-quiz-container{
         width: 90%;
         height: 80vh;
@@ -264,9 +266,9 @@ input[type=radio]:checked ~ .option {
     .modal-content-container h1{
         font-size: 1.2rem;
     }
-}
 
-@media(min-width : 350px) and (max-width : 700px){
+
+
    .game-quiz-container{
        width: 90%;
        height: 80vh;
@@ -294,7 +296,7 @@ input[type=radio]:checked ~ .option {
     .modal-content-container h1{
         font-size: 1.2rem;
     }
-}
+
 
 
 
