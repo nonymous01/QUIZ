@@ -119,6 +119,8 @@ input[type=radio]:checked ~ .option {
     height: 3rem;
     display: flex;
     justify-content: center;
+    position: relative;
+    top: 22px;
 }
 .next-button-container button{
     width: 8rem;
@@ -231,6 +233,7 @@ input[type=radio]:checked ~ .option {
     }
     .game-options-container span label{
         font-size: 0.8rem;
+
     }
     .modal-content-container{
         width: 90%;
@@ -261,6 +264,7 @@ input[type=radio]:checked ~ .option {
 
     .game-options-container span{
         width: 90%;
+        margin-top: 10px;
     }
     .modal-content-container{
         width: 90%;
