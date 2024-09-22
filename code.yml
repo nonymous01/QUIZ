@@ -1,0 +1,71 @@
+lab/traefik/ :
+
+version: '3.7'
+services:
+  traefik:
+    image: traefik:v2.5
+    command:
+      - "--api.insecure=true"
+      - "--providers.docker=true"
+      - "--entrypoints.web.address=:80"
+      - "--entrypoints.websecure.address=:443"
+    ports:
+      - "80:80"
+      - "443:443"
+      - "8080:8080"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    networks:
+      - webnet
+
+networks:
+  webnet:
+    external: true
+
+
+  docker network create webnet
+
+
+
+web
+
+version: '3.7'
+services:
+  web:
+    image: nginx:alpine
+    volumes:
+      - ./html:/usr/share/nginx/html:ro
+    expose:
+      - "80"
+    networks:
+      - webnet
+    labels:
+      - "traefik.docker.network=webnet"
+      - "traefik.http.routers.web.rule=Host(`mysuperapp.lan`)"
+      - "traefik.http.services.web.loadbalancer.server.port=80"
+
+networks:
+  webnet:
+    external: true
+
+
+lab/web/html/index.html
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Super App</title>
+</head>
+<body>
+  <h1>Welcome to My Super App!</h1>
+</body>
+</html>
+
+
+
+cd lab/traefik
+docker-compose up -d
+
+cd ../web
+docker-compose up -d
+
